@@ -29,10 +29,16 @@
       <version>3.9</version>
     </dependency>
 
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-collections4</artifactId>
+      <version>4.1</version>
+    </dependency>
+
   </dependencies>
 
   <build>
-    <finalName>marelease-v1</finalName>
+    <finalName>marelease</finalName>
     <plugins>
 
       <!-- download source code in Eclipse, best practice -->
