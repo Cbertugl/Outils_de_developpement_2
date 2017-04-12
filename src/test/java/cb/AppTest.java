@@ -1,4 +1,4 @@
-package 1;
+package cb;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -33,6 +33,7 @@ public class AppTest
      */
     public void testApp()
     {
+    	assertEquals(App.max(4,5),App.max(5, 4));
         assertTrue( true );
     }
 }

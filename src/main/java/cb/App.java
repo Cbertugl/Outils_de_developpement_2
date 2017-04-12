@@ -1,4 +1,4 @@
-package 1;
+package cb;
 
 /**
  * Hello world!
@@ -6,8 +6,17 @@ package 1;
  */
 public class App 
 {
-    public static void main( String[] args )
+    public static int max(int a,int b)
     {
-        System.out.println( "Hello World!" );
+    	return a > b ? a:b;
+    }
+	
+	
+	
+	public static void main( String[] args )
+    {
+        System.out.println( "Hello World! Quelques modifications !" );
+        int x = max(3,4);
+        System.out.println(x);
     }
 }
